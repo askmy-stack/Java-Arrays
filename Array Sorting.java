@@ -21,7 +21,7 @@ public class Array Sorting{
         }
     }
     public static boolean is_Sorted(int[]a, int b){
-        for (int i = 0; i <b ; i++) {
+        for (int i = 1; i <b ; i++) {
             if (a[i]<a[i-1]){
                 return false;
             }
